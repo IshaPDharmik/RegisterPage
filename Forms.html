@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+       body{
+        background-color: salmon ;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 300px;
+        font-size: 24px; 
+        margin: 50px;
+        padding-right:100px;
+        }
+        input{
+           border-Style: double;
+           border-color: black;
+           background-color: white;
+           text-decoration: black;
+        }
+        form{
+            background-color: rgb(122, 73, 73);  
+            padding-top: 50px;
+            padding-bottom: 30px;
+            padding-left: 100px; 
+            width: 700px;
+            height: 900px;     
+         }
+        button{
+           border-style: double;
+           font-size:20px;
+           width:100px;
+           cursor: pointer;
+           background-color: skyblue;
+           margin: 30px;
+       
+        }
+       
+</style>
+<body>
+<form action="register" method="post">
+
+<h1><b>Register Form</b></h1>
+  <p> 
+            <label><b>First Name</b></label>   
+       <input type="text" name="Firstname" placeholder="Enter FName" required>  
+    
+            <label><b>Last Name</b></label>  
+       <input type="text" name="Lastname" placeholder="Enter LName" required> <br><br>
+    
+            <label><b>FatherName</b></label>  
+       <input type="text" name="Fathername" placeholder="Enter FName" required> 
+    
+            <label><b>MotherName</b></label>  
+       <input type="text" name="Mothername" placeholder="Enter Mother Name" required> <br><br>
+    
+            <label> <b>Date Of Birth </b></label> 
+       <input type="date" name="DOB" class="inputfields placeholder="Enter DOB" required> 
+         
+            <label><b>Age</b></label>
+       <input type="text" placeholder="Enter Age" name="Age" required> <br><br>
+                
+            <label><b>MobileNo.</b></label>
+        <input type="text" placeholder="Enter Contact" name="Contact" required> 
+            
+        <label><b>AadharNo.</b></label>
+        <input type="=text" placeholder="AadharCard" name="AadharCard Number" required> <br><br>
+    
+            <label><b>Email</b></label>
+        <input type="text" placeholder="abc123@gmail.com" name="email" required> 
+        
+        <label><b>PassWord</b></label>
+        <input type="password" placeholder="xyz" name="Password" required> <br><br>
+    
+            <label><b>Address</b></label>
+        <input type="text" placeholder="Enter Address" name="Address" required> 
+        
+            <label><b>City</b></label>  
+       <input type="text" name="City" placeholder="Enter" required> <br><br>
+       
+            <label><b>Country</b></label>  
+       <input type="text" name="Country" placeholder="Enter" required> 
+       
+            <label><b>State</b></label>  
+       <input type="text" name="State" placeholder="Enter" required> <br><br>
+            
+            <label><b>Degree</b></label>  
+       <input type="text" name="Degree" placeholder="Enter in which field" required> 
+       
+            <label><b>Passing Year</b></label>  
+       <input type="text" name="Passing Year" placeholder="Enter Passing Year" required> <br><br>
+    
+    
+            <label><b>Gender: </b></label>
+           <select name="gender" required>
+           <option value="Male">Male</option>
+           <option value="Female">Female</option>
+           <option value="Other">Other</option>
+           </select> <br><br>
+             
+       <button type="Submit"><b>Submit</b></button> 
+</p>       
+</form>
+</body>
+</html>
